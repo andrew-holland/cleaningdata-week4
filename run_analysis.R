@@ -1,3 +1,5 @@
+install.packages("dataMaid")
+library(dataMaid)
 ##Load in the libraries
 library(readr)
 library(dplyr)
@@ -69,4 +71,8 @@ data_summary <- full %>%
     arrange(Person_ID, Activity_ID)
 #DONE!
 
-                  
+
+write.table(data_summary, file = "data_summary.txt", row.names = FALSE)
+?write.table  
+
+makeCodebook(data_summary)
