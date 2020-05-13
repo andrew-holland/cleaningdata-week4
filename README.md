@@ -3,7 +3,7 @@ Using the data provided in the assignment, with an unchanged file structure, the
 
 But what data is analysed?
 
-##The Data Used
+## The Data Used
 
 There are 8 files read in by the code:
 
@@ -16,7 +16,7 @@ There are 8 files read in by the code:
 * features.txt - a list of the measurement values (these are the column names for X_train nd X_test
 * activity_labels.txt - a small file with the encoding of the activities used.
 
-##The Analysis
+## The Analysis
 
 The code is fully commented through, explaining the key steps and lines - how they relate to the required steps for the assignment.
 
